@@ -10,7 +10,10 @@ should be a good starting point for most people.
 Running
 =======
 
-    % rake
+    % rake setup
+    % cd vendor
+    % git clone git://github.com/atmos/express-session-redis.git
+    % git clone git://github.com/fictorial/redis-node-client.git
     % node server.js
 
 

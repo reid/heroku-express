@@ -2,6 +2,8 @@
 
 // add the vendored express to the require path
 require.paths.unshift("vendor/express/lib")
+require.paths.unshift("vendor/redis-node-client/lib")
+require.paths.unshift("vendor/express-session-redis/lib")
 
 // require express and its plugins
 require("express")
